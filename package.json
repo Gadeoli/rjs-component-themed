@@ -18,12 +18,14 @@
   },
   "keywords": [
     "reactjs",
-    "waterproofstone"
+    "component",
+    "library",
+    "themed"
   ],
   "author": "gadeoli",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.18.0",
+    "@babel/core": "^7.26.7",
     "@babel/preset-env": "^7.18.0",
     "@babel/preset-react": "^7.17.12",
     "@babel/preset-typescript": "^7.17.12",
@@ -68,8 +70,8 @@
     "uniqid": "^5.4.0"
   },
   "peerDependencies": {
-    "@gadeoli/rjs-hooks-library": "~0.0.21",
-    "@gadeoli/js-helpers-library": "~0.0.15",
+    "@gadeoli/rjs-hooks-library": ">=0.0.21",
+    "@gadeoli/js-helpers-library": ">=0.0.15",
     "polished": "^4.2.2",
     "react": "^18.1.0",
     "styled-components": "^5.3.5",
